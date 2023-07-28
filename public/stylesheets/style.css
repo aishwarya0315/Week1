@@ -3,6 +3,30 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Add styles for each color */
+tr.red {
+  background-color: #ffcccc;
+}
+
+tr.green {
+  background-color: #ccffcc;
+}
+
+tr.blue {
+  background-color: #cce6ff;
+}
+
+tr.pink {
+  background-color: #8c2569;
 }

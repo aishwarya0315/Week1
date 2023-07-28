@@ -1,0 +1,67 @@
+
+
+[
+    {
+        "Id": 1,
+        "Term": "DevOps",
+        "Description": "A software development approach that aims to integrate software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency in the software delivery process." ,
+        "Reference": "'The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations' by Gene Kim, Patrick Debois, John Willis, and Jez Humble."
+    },
+    {
+        "Id": 2,
+        "Term": "Continuous Integration (CI)",
+        "Description": "The practice of automatically integrating code changes into a shared repository multiple times a day. It involves running automated tests to detect and fix integration issues early.",
+        "Reference": "'Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation' by Jez Humble and David Farley."
+    },
+    {
+        "Id": 3,
+        "Term": "Continuous Delivery (CD)",
+        "Description": "Extends CI by automatically deploying code changes to production or staging environments once they pass the automated tests, making it ready for release at any time.",
+        "Reference": "'Site Reliability Engineering: How Google Runs Production Systems' by Niall Richard Murphy, Betsy Beyer, Chris Jones, and Jennifer Petoff."
+    },
+    {
+        "Id": 4,
+        "Term": "Agile Software Development",
+        "Description": "A software development methodology and philosophy, focused on user feedback, software quality, and the ability to respond quickly to changes and new product requirements.",
+        "Reference": "https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752"
+    },
+    {
+        "Id": 5,
+        "Term": "Branching",
+        "Description": "The duplication of an object under review in source control so that the same code can be modified by more than one developer in parallel.",
+        "Reference": "https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752"
+    },
+    {
+        "Id": 6,
+        "Term": "Deployment",
+        "Description": "A term that refers to the grouping of every activity that makes a program available for use and moving that program to the target environment.",
+        "Reference": "https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752"
+    },
+    {
+        "Id": 7,
+        "Term": "Automation",
+        "Description": "The technology by which a process or procedure is performed without manual intervention. In DevOps, automation allows for the creation of real-time reports, integrating various tools used by different stakeholders, and workflows—integrating technology to bring tools together from different domains and break down the silos.",
+        "Reference": "https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/"
+    },
+    {
+        "Id": 8,
+        "Term": "Iterations",
+        "Description": "A single development cycle, typically measured as one week or two weeks.",
+        "Reference": "https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/"
+    },
+    {
+        "Id": 9,
+        "Term": "Continuous Deployment",
+        "Description": "Continuous Deployment is a form of Continuous Delivery that is fully automated and deploys every version instantly.",
+        "Reference": "https://octopus.com/devops/glossary/"
+    },
+    {
+        "Id": 10,
+        "Term": "Git",
+        "Description": "Git is a software and method of source control used for distributed development. Git tracks file changes, mostly to track source code changes between developers.",
+        "Reference": "https://octopus.com/devops/glossary/"
+    }
+    
+]
+
+

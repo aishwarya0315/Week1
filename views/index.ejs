@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= sub %></p>
-    <table>
-      <% tble.forEach((name) => { %>
+<head>
+  <title>DevOps Glossary</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>DevOps Glossary</h1>
+  <link rel="stylesheet" href="/style.css">
+  <table>
+    <thead>
       <tr>
-        <td>
-          <%= name.id %>
-        </td>
-        <td>
-          <%= name.name %>
-        </td>
-        <td>
-          <%= name.email %>
-        </td>
+        <th>ID</th>
+        <th>Term</th>
+        <th>Description</th>
+        <th>Reference</th>
       </tr>
-    <% }) %>
-    </table>
-  </body>
+    </thead>
+    <tbody>
+      <% tble.forEach(term => { %>
+        <tr class="<%= term.color %>">
+          <td><%= term.Id %></td>
+          <td><%= term.Term %></td>
+          <td><%= term.Description %></td>
+          <td><%= term.Reference %></td>
+        </tr>
+
+      <% }); %>
+    </tbody>
+  </table>
+</body>
 </html>
