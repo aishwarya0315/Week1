@@ -60,6 +60,66 @@
         "Term": "Git",
         "Description": "Git is a software and method of source control used for distributed development. Git tracks file changes, mostly to track source code changes between developers.",
         "Reference": "https://octopus.com/devops/glossary/"
+    },
+    {
+        "Id": 11,
+        "Term": "Configuration Management",
+        "Description": "The process of managing and maintaining the configuration of software and infrastructure components. It ensures consistency and enables automation in managing environments.",
+        "Reference": "Red Hat"
+    },
+    {
+        "Id": 12,
+        "Term": "Continuous Monitoring",
+        "Description": "The practice of constantly observing and collecting data from applications and infrastructure to identify issues and improve performance",
+        "Reference": "Data Dog"
+    },
+    {
+        "Id": 13,
+        "Term": "Microservices",
+        "Description": "An architectural approach where an application is divided into small, loosely coupled services that can be independently developed, deployed, and scaled",
+        "Reference": "MArtin Fowler"
+    },
+    {
+        "Id": 14,
+        "Term": "DevSecOps",
+        "Description": "An extension of DevOps that integrates security practices throughout the software development lifecycle to ensure secure and compliant software delivery.",
+        "Reference": "DevSecOps"
+    },
+    {
+        "Id": 15,
+        "Term": "Test-Driven Development",
+        "Description": "It is a software development practice that follows a specific iterative approach to writing code. The main idea behind TDD is to write tests for a specific piece of functionality before actually implementing that functionality in code.",
+        "Reference": "TDD"
+    },
+    {
+        "Id": 16,
+        "Term": "Behavior-Driven Development",
+        "Description": "It is a software development methodology that extends the principles of Test-Driven Development (TDD) by focusing on the behavior of the software from the perspective of its stakeholders",
+        "Reference": "Wikipidea"
+    },
+    {
+        "Id": 17,
+        "Term": "Staging",
+        "Description": "It refers to an environment in the software development pipeline where a version of the application is deployed for testing and validation before it is released to production.",
+        "Reference": "Red-gate"
+    },
+    {
+        "Id": 18,
+        "Term": "Automation",
+        "Description": "Automation refers to the use of technology, tools, or scripts to perform tasks, processes, or workflows with minimal human intervention. In the context of software development and IT operations, automation plays a crucial role in streamlining repetitive, manual, and error-prone tasks, thereby improving efficiency, accuracy, and productivity.",
+        "Reference": "Red Hat"
+    },
+    {
+        "Id": 19,
+        "Term": "Integration",
+        "Description": "The process of combining different components, systems, or software applications to work together seamlessly as a unified whole. ",
+        "Reference": "Red-gate"
+    },
+    {
+        "Id": 20,
+        "Term": "Continous Monitoring",
+        "Description": "It refers to the practice of continuously monitoring the health, performance, and security of software applications and the underlying infrastructure throughout the entire software development lifecycle.",
+        "Reference": "Wikipidea"
     }
     
 ]
