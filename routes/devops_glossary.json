@@ -120,6 +120,66 @@
         "Term": "Continous Monitoring",
         "Description": "It refers to the practice of continuously monitoring the health, performance, and security of software applications and the underlying infrastructure throughout the entire software development lifecycle.",
         "Reference": "Wikipidea"
+    },
+    {
+        "Id": 21,
+        "Term": "Service",
+        "Description": "A service in the context of microservices is a self-contained unit of functionality that can handle specific business tasks or operations. Each microservice typically represents a single business capability. ",
+        "Reference": "Red-gate"
+    },
+    {
+        "Id": 22,
+        "Term": "Container",
+        "Description": "Resource isolation at the OS (rather than machine) level, usually (in UNIX-based systems) in user space. Isolated elements vary by containerization strategy and often include file system, disk quota, CPU and memory, I/O rate, root privileges, and network access. Much lighter-weight than machine-level virtualization and sufficient for many isolation requirement sets. ",
+        "Reference": "https://dzone.com/articles/microservices-zone-glossary"
+    },
+    {
+        "Id": 23,
+        "Term": "Orchestration",
+        "Description": "The method to automate the management and deployment of your applications and containers.",
+        "Reference": "https://dzone.com/articles/microservices-zone-glossary"
+    },
+    {
+        "Id": 24,
+        "Term": "Docker",
+        "Description": "Docker is a popular containerization platform that allows you to create, deploy, and manage containers.",
+        "Reference": "https://docs.docker.com/"
+    },
+    {
+        "Id": 25,
+        "Term": "Gateway",
+        "Description": "A gateway is a service that acts as an entry point for external clients to interact with a set of microservices. It may handle routing, authentication, and load balancing.",
+        "Reference": "Wikipidea"
+    },
+    {
+        "Id": 26,
+        "Term": "Scalability",
+        "Description": "Scalability is the ability of a microservice architecture to handle increased load by adding or removing instances of services as needed. ",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 27,
+        "Term": "API",
+        "Description": "An API is a set of rules and protocols that allows one software application to interact with another. Microservices often communicate with each other through APIs.",
+        "Reference": "https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces"
+    },
+    {
+        "Id": 28,
+        "Term": "Containerization",
+        "Description": " Containerization is a technology that allows you to package an application and its dependencies into a standardized unit called a container. Containers are portable and can run consistently across different environments.",
+        "Reference": "https://www.docker.com/resources/what-container/"
+    },
+    {
+        "Id": 29,
+        "Term": "Video Streaming",
+        "Description": "Video streaming is the process of transmitting video data over the internet in real-time, allowing users to watch videos without downloading the entire file beforehand.",
+        "Reference": "Red-gate"
+    },
+    {
+        "Id": 30,
+        "Term": "Streaming Service",
+        "Description": "A streaming service is a platform that provides access to a library of videos for users to watch online, such as Netflix, YouTube, or Hulu.",
+        "Reference": "D-Zone"
     }
     
 ]
