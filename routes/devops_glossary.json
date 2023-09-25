@@ -180,6 +180,126 @@
         "Term": "Streaming Service",
         "Description": "A streaming service is a platform that provides access to a library of videos for users to watch online, such as Netflix, YouTube, or Hulu.",
         "Reference": "D-Zone"
+    },
+    {
+        "Id": 31,
+        "Term": "Dockerfile",
+        "Description": "A text file that contains instructions for building a Docker image.",
+        "Reference": "https://docs.docker.com/engine/reference/builder/"
+    },
+    {
+        "Id": 32,
+        "Term": "Containerization",
+        "Description": "The process of packaging and running applications and their dependencies in containers for consistent and isolated execution.",
+        "Reference": "https://www.docker.com/resources/what-container/"
+    },
+    {
+        "Id": 33,
+        "Term": "Registry",
+        "Description": "A repository for storing and distributing Docker images. Docker Hub is a popular public registry.",
+        "Reference": "Docker Hub"
+    },
+    {
+        "Id": 34,
+        "Term": "Volume",
+        "Description": "A Docker feature that allows data to persist outside the container. Volumes are used for data storage and sharing between containers.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 35,
+        "Term": "Compose",
+        "Description": "A tool for defining and running multi-container Docker applications using a YAML file.",
+        "Reference": "https://docs.docker.com/compose/"
+    },
+    {
+        "Id": 36,
+        "Term": "Kubernetes (K8s)",
+        "Description": "An open-source container orchestration platform for automating the deployment, scaling, and management of containerized applications.",
+        "Reference": "https://kubernetes.io/"
+    },
+    {
+        "Id": 37,
+        "Term": "Container Orchestration",
+        "Description": "The automated management of containers, including deployment, scaling, load balancing, and resource allocation.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 38,
+        "Term": "CLI",
+        "Description": "Command-Line Interface, which allows users to interact with Docker through commands in a terminal or shell",
+        "Reference": "DevSecOps"
+    },
+    {
+        "Id": 39,
+        "Term": "Multi-stage Build:",
+        "Description": "A technique in Dockerfile creation where multiple build stages are used to reduce the size of the final image.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 40,
+        "Term": "Registry Authentication",
+        "Description": "The process of securely authenticating with a container registry to pull or push images.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 41,
+        "Term": "Regression test",
+        "Description": "is re-running functional and non-functional tests to ensure that previously developed and tested software still performs as expected after a change",
+        "Reference": "Wikipidea"
+    },
+    {
+        "Id": 42,
+        "Term": "Security test",
+        "Description": "Security Testing is a type of Software Testing that uncovers vulnerabilities, threats, risks in a software application and prevents malicious attacks from intruders.",
+        "Reference": "Guru99"
+    },
+    {
+        "Id": 43,
+        "Term": "FLUENTD",
+        "Description": "Fluentd is an open-source data collection and log aggregation tool used for collecting, processing, and forwarding log and event data from various sources in a unified way",
+        "Reference": "Red-gate"
+    },
+    {
+        "Id": 44,
+        "Term": "ELASTICSEARCH",
+        "Description": "Elasticsearch is an open-source search engine written in Java.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 45,
+        "Term": "KIBANA",
+        "Description": "Kibana is the most interesting option of all this. It’s an open-source visualization dashboard built on top of Elasticsearch.",
+        "Reference": "Unit site"
+    },
+    {
+        "Id": 46,
+        "Term": "PROMETHEUS",
+        "Description": "Prometheus is an open-source monitoring system and time series database. Alongside Kubernetes, Prometheus is a graduated project of the Cloud Native Computing Foundation (CNCF), which puts it with some very esteemed company.",
+        "Reference": "Data Dog"
+    },
+    {
+        "Id": 47,
+        "Term": "GRAFANA ",
+        "Description": "Whilst Prometheus is great for data collection, queries, and alerts, it’s not so good at visualization. We can create simple graphs with Prometheus, but it’s quite limited.",
+        "Reference": "Unit site"
+    },
+    {
+        "Id": 48,
+        "Term": "Multi-stage Build:",
+        "Description": "A technique in Dockerfile creation where multiple build stages are used to reduce the size of the final image.",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 49,
+        "Term": "Docker log Driver",
+        "Description": "The log driver determines how Docker containers' logs are handled and where they are stored. ",
+        "Reference": "D-Zone"
+    },
+    {
+        "Id": 50,
+        "Term": "Metadata",
+        "Description": "Metadata refers to data that provides information about other data. It describes various aspects of data, such as its content, structure, context, and characteristics. ",
+        "Reference": "Red-gate"
     }
     
 ]
